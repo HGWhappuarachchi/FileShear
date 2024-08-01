@@ -24,13 +24,13 @@ This is a Flask application for secure file sharing with user authentication. Us
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/HGWhappuarachchi/FileShear
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd your-repo-name
+    cd FileShear
     ```
 
 3. **Create a virtual environment:**
