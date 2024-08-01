@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}Home - My Flask App{% endblock %}
+{% block content %}
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to Alone File Shear!</h1>
+    <p class="lead">This is a simple file sharing application built with Flask Python.</p>
+    <hr class="my-4">
+    <p>Register or log in to start sharing your files.</p>
+    <a class="btn btn-primary btn-lg" href="/register" role="button">Register</a>
+    <a class="btn btn-secondary btn-lg" href="/login" role="button">Login</a>
+  </div>
+{% endblock %}

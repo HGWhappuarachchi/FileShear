@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}My Files - My Flask App{% endblock %}
+{% block content %}
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">My Files</h5>
+      <ul class="list-group">
+        {% for file in files %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          {{ file.filename }}
+          <a href="{{ url_for('download', file_id=file.id) }}" class="btn btn-sm btn-primary">Download</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endblock %}
